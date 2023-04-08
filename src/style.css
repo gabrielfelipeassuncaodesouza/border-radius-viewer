@@ -1,0 +1,38 @@
+#square {
+  
+  float: right;
+  background-color: #000000;
+  width: 200px;
+  height: 200px;
+  margin: 10px 10px;
+}
+
+#css-code {
+  
+  margin: 10% 50% 0 50%;
+}
+
+.header {
+  
+  width: 43%;
+  margin: 0 50%;
+}
+
+.inputs {
+  
+  margin-top: 50px;
+  float: left;
+}
+
+input {
+  
+  display: flex;
+  margin-bottom: 10px;
+}
+
+button {
+  
+  position: relative;
+  top: 70px;
+  margin: 10px 40% 0 40%;
+}

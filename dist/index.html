@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Border-radius-viewer</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+  <head>
+    <title>Border Radius Viewer</title>
+  </head>
+  <body>
+    
+    <div class="header">
+      <div class="inputs">
+        
+          <input id="input1" type="text" value=0 placeholder="Type the value for top-left">
+          <input id="input2" type="text" value=0 placeholder="Type the value for top-right">
+          <input id="input3" type="text" value=0 placeholder="Type the value for bottom-right">
+          <input id="input4" type="text" value=0 placeholder="Type the value for bottom-left">
+        </div>
+    
+      <div id="square"></div>
+    </div>
+    
+    <br><br><br><br>
+    
+    <textarea readOnly id="css-code" cols="40" rows="10"></textarea>
+    
+    <button onclick="update()">Update square</button>
+    <button onclick="copyToClipboard()">Copy to clipboard</button>
+    
+  </body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
